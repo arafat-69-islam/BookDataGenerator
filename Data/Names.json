@@ -1,0 +1,24 @@
+﻿{
+  "firstNames": {
+    "en-US": [ "John", "Jane", "Michael", "Emily", "David", "Sarah" ],
+    "fr-FR": [ "Jean", "Marie", "Pierre", "Sophie", "Jacques", "Claire" ],
+    "de-DE": [ "Hans", "Anna", "Thomas", "Claudia", "Wolfgang", "Greta" ],
+    "es-ES": [ "Juan", "María", "Carlos", "Ana", "Luis", "Sofía" ],
+    "ja-JP": [ "太郎", "花子", "健太", "さくら", "悠真", "美咲" ]
+  },
+  "lastNames": {
+    "en-US": [ "Smith", "Doe", "Johnson", "Williams", "Brown", "Lee" ],
+    "fr-FR": [ "Dupont", "Martin", "Bernard", "Petit", "Moreau", "Leroy" ],
+    "de-DE": [ "Müller", "Schmidt", "Schneider", "Fischer", "Weber", "Wagner" ],
+    "es-ES": [ "García", "Rodríguez", "González", "Fernández", "López", "Martínez" ],
+    "ja-JP": [ "佐藤", "鈴木", "高橋", "田中", "伊藤", "山本" ]
+  }
+  {
+    "firstNames": {
+      "it-IT": [ "Giovanni", "Maria", "..." ]
+    },
+    "lastNames": {
+      "it-IT": [ "Rossi", "Bianchi", "..." ]
+    }
+  }
+}
