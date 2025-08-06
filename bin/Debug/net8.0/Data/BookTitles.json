@@ -1,0 +1,72 @@
+﻿{
+  "en-US": [
+    "The Silent Echo",
+    "Midnight in New York",
+    "100 Things To Do With Cars",
+    "Beyond the Horizon",
+    "The Last Algorithm",
+    "Stranger in a Strange Land",
+    "The Art of Debugging",
+    "Coffee and Code",
+    "Silicon Valley Dreams",
+    "The Startup Paradox",
+    "Digital Nomad Chronicles",
+    "The Cloud Revolution"
+  ],
+  "fr-FR": [
+    "Le Petit Prince",
+    "Marseille et la dame rose",
+    "La Librairie des livres interdits",
+    "Il suffit parfois d'un été",
+    "Le Bleu",
+    "La grand arbre",
+    "Parfum de Paris",
+    "Le dernier café",
+    "Les étoiles oubliées",
+    "L'algorithme secret",
+    "Café de Montmartre",
+    "Les rêves de Silicon Valley"
+  ],
+  "de-DE": [
+    "Der Alchimist",
+    "Die unendliche Geschichte",
+    "Tintenherz",
+    "Der Vorleser",
+    "Das Parfum",
+    "Herr der Diebe",
+    "Der Code",
+    "Berliner Nächte",
+    "Das Startup",
+    "Kaffee und Algorithmen",
+    "Die digitale Revolution",
+    "Träume aus dem Silicon Valley"
+  ],
+  "es-ES": [
+    "Cien años de soledad",
+    "La sombra del viento",
+    "El tiempo entre costuras",
+    "Don Quijote de la Mancha",
+    "La casa de los espíritus",
+    "Como agua para chocolate",
+    "El algoritmo secreto",
+    "Café y código",
+    "Noches en Barcelona",
+    "El sueño startup",
+    "La revolución digital",
+    "Sueños del Valle del Silicio"
+  ],
+  "ja-JP": [
+    "ノルウェイの森",
+    "海辺のカフカ",
+    "1Q84",
+    "容疑者Xの献身",
+    "雪国",
+    "こころ",
+    "シリコンバレーの夢",
+    "コーヒーとコード",
+    "東京の夜",
+    "秘密のアルゴリズム",
+    "デジタル革命",
+    "スタートアップの物語"
+  ]
+}

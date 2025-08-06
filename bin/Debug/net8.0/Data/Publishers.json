@@ -1,0 +1,7 @@
+﻿{
+  "en-US": ["Penguin Random House", "HarperCollins", "Simon & Schuster", "Macmillan", "Hachette", "Wiley", "O'Reilly"],
+  "fr-FR": ["Éditions Gallimard", "Flammarion", "Albin Michel", "Actes Sud", "Seuil", "Grasset", "Fayard"],
+  "de-DE": ["Suhrkamp", "Fischer Verlag", "Rowohlt", "dtv", "Piper", "Beck", "Hanser"],
+  "es-ES": ["Alfaguara", "Planeta", "Anagrama", "Tusquets", "Siruela", "Destino", "Espasa"],
+  "ja-JP": ["講談社", "新潮社", "文藝春秋", "角川書店", "集英社", "岩波書店", "小学館"]
+}

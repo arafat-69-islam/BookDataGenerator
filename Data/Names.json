@@ -1,0 +1,16 @@
+﻿{
+  "firstNames": {
+    "en-US": ["John", "Jane", "Michael", "Emily", "David", "Sarah", "Chris", "Lisa", "Mark", "Anna", "Robert", "Jennifer"],
+    "fr-FR": ["Jean", "Marie", "Pierre", "Sophie", "Jacques", "Claire", "Antoine", "Isabelle", "François", "Camille", "Philippe", "Nathalie"],
+    "de-DE": ["Hans", "Anna", "Thomas", "Claudia", "Wolfgang", "Greta", "Klaus", "Petra", "Dieter", "Sabine", "Jürgen", "Ingrid"],
+    "es-ES": ["Juan", "María", "Carlos", "Ana", "Luis", "Sofía", "Miguel", "Carmen", "José", "Isabel", "Antonio", "Pilar"],
+    "ja-JP": ["太郎", "花子", "健太", "さくら", "悠真", "美咲", "大輔", "愛子", "翔太", "結愛", "拓海", "陽菜"]
+  },
+  "lastNames": {
+    "en-US": ["Smith", "Doe", "Johnson", "Williams", "Brown", "Lee", "Davis", "Miller", "Wilson", "Moore", "Taylor", "Anderson"],
+    "fr-FR": ["Dupont", "Martin", "Bernard", "Petit", "Moreau", "Leroy", "Simon", "Michel", "Garcia", "David", "Roux", "Fournier"],
+    "de-DE": ["Müller", "Schmidt", "Schneider", "Fischer", "Weber", "Wagner", "Becker", "Schulz", "Hoffmann", "Koch", "Richter", "Klein"],
+    "es-ES": ["García", "Rodríguez", "González", "Fernández", "López", "Martínez", "Sánchez", "Pérez", "Gómez", "Martín", "Jiménez", "Ruiz"],
+    "ja-JP": ["佐藤", "鈴木", "高橋", "田中", "伊藤", "山本", "渡辺", "中村", "小林", "加藤", "吉田", "山田"]
+  }
+}

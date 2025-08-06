@@ -1,0 +1,37 @@
+H:\muntakim\Personal\Itransation\Task 5\fake book store simulator\BookDataGenerator\BookDataGenerator Web\obj\Debug\net8.0\BookDataGenerator Web.csproj.AssemblyReference.cache
+H:\muntakim\Personal\Itransation\Task 5\fake book store simulator\BookDataGenerator\BookDataGenerator Web\obj\Debug\net8.0\BookDataGenerator Web.GeneratedMSBuildEditorConfig.editorconfig
+H:\muntakim\Personal\Itransation\Task 5\fake book store simulator\BookDataGenerator\BookDataGenerator Web\obj\Debug\net8.0\BookDataGenerator Web.AssemblyInfoInputs.cache
+H:\muntakim\Personal\Itransation\Task 5\fake book store simulator\BookDataGenerator\BookDataGenerator Web\obj\Debug\net8.0\BookDataGenerator Web.AssemblyInfo.cs
+H:\muntakim\Personal\Itransation\Task 5\fake book store simulator\BookDataGenerator\BookDataGenerator Web\obj\Debug\net8.0\BookDataGenerator Web.csproj.CoreCompileInputs.cache
+H:\muntakim\Personal\Itransation\Task 5\fake book store simulator\BookDataGenerator\BookDataGenerator Web\obj\Debug\net8.0\BookDataGenerator Web.MvcApplicationPartsAssemblyInfo.cache
+H:\muntakim\Personal\Itransation\Task 5\fake book store simulator\BookDataGenerator\BookDataGenerator Web\obj\Debug\net8.0\BookDataGenerator Web.RazorAssemblyInfo.cache
+H:\muntakim\Personal\Itransation\Task 5\fake book store simulator\BookDataGenerator\BookDataGenerator Web\obj\Debug\net8.0\BookDataGenerator Web.RazorAssemblyInfo.cs
+H:\muntakim\Personal\Itransation\Task 5\fake book store simulator\BookDataGenerator\BookDataGenerator Web\bin\Debug\net8.0\appsettings.Development.json
+H:\muntakim\Personal\Itransation\Task 5\fake book store simulator\BookDataGenerator\BookDataGenerator Web\bin\Debug\net8.0\appsettings.json
+H:\muntakim\Personal\Itransation\Task 5\fake book store simulator\BookDataGenerator\BookDataGenerator Web\bin\Debug\net8.0\Data\BookTitles.json
+H:\muntakim\Personal\Itransation\Task 5\fake book store simulator\BookDataGenerator\BookDataGenerator Web\bin\Debug\net8.0\Data\Names.json
+H:\muntakim\Personal\Itransation\Task 5\fake book store simulator\BookDataGenerator\BookDataGenerator Web\bin\Debug\net8.0\Data\Publishers.json
+H:\muntakim\Personal\Itransation\Task 5\fake book store simulator\BookDataGenerator\BookDataGenerator Web\bin\Debug\net8.0\Data\ReviewData.json
+H:\muntakim\Personal\Itransation\Task 5\fake book store simulator\BookDataGenerator\BookDataGenerator Web\bin\Debug\net8.0\BookDataGenerator Web.staticwebassets.runtime.json
+H:\muntakim\Personal\Itransation\Task 5\fake book store simulator\BookDataGenerator\BookDataGenerator Web\bin\Debug\net8.0\BookDataGenerator Web.exe
+H:\muntakim\Personal\Itransation\Task 5\fake book store simulator\BookDataGenerator\BookDataGenerator Web\bin\Debug\net8.0\BookDataGenerator Web.deps.json
+H:\muntakim\Personal\Itransation\Task 5\fake book store simulator\BookDataGenerator\BookDataGenerator Web\bin\Debug\net8.0\BookDataGenerator Web.runtimeconfig.json
+H:\muntakim\Personal\Itransation\Task 5\fake book store simulator\BookDataGenerator\BookDataGenerator Web\bin\Debug\net8.0\BookDataGenerator Web.dll
+H:\muntakim\Personal\Itransation\Task 5\fake book store simulator\BookDataGenerator\BookDataGenerator Web\bin\Debug\net8.0\BookDataGenerator Web.pdb
+H:\muntakim\Personal\Itransation\Task 5\fake book store simulator\BookDataGenerator\BookDataGenerator Web\bin\Debug\net8.0\CsvHelper.dll
+H:\muntakim\Personal\Itransation\Task 5\fake book store simulator\BookDataGenerator\BookDataGenerator Web\obj\Debug\net8.0\scopedcss\Views\Shared\_Layout.cshtml.rz.scp.css
+H:\muntakim\Personal\Itransation\Task 5\fake book store simulator\BookDataGenerator\BookDataGenerator Web\obj\Debug\net8.0\scopedcss\bundle\BookDataGenerator Web.styles.css
+H:\muntakim\Personal\Itransation\Task 5\fake book store simulator\BookDataGenerator\BookDataGenerator Web\obj\Debug\net8.0\scopedcss\projectbundle\BookDataGenerator Web.bundle.scp.css
+H:\muntakim\Personal\Itransation\Task 5\fake book store simulator\BookDataGenerator\BookDataGenerator Web\obj\Debug\net8.0\staticwebassets.build.json
+H:\muntakim\Personal\Itransation\Task 5\fake book store simulator\BookDataGenerator\BookDataGenerator Web\obj\Debug\net8.0\staticwebassets.development.json
+H:\muntakim\Personal\Itransation\Task 5\fake book store simulator\BookDataGenerator\BookDataGenerator Web\obj\Debug\net8.0\BookData.7E1C56FD.Up2Date
+H:\muntakim\Personal\Itransation\Task 5\fake book store simulator\BookDataGenerator\BookDataGenerator Web\obj\Debug\net8.0\BookDataGenerator Web.dll
+H:\muntakim\Personal\Itransation\Task 5\fake book store simulator\BookDataGenerator\BookDataGenerator Web\obj\Debug\net8.0\refint\BookDataGenerator Web.dll
+H:\muntakim\Personal\Itransation\Task 5\fake book store simulator\BookDataGenerator\BookDataGenerator Web\obj\Debug\net8.0\BookDataGenerator Web.pdb
+H:\muntakim\Personal\Itransation\Task 5\fake book store simulator\BookDataGenerator\BookDataGenerator Web\obj\Debug\net8.0\BookDataGenerator Web.genruntimeconfig.cache
+H:\muntakim\Personal\Itransation\Task 5\fake book store simulator\BookDataGenerator\BookDataGenerator Web\obj\Debug\net8.0\ref\BookDataGenerator Web.dll
+H:\muntakim\Personal\Itransation\Task 5\fake book store simulator\BookDataGenerator\BookDataGenerator Web\obj\Debug\net8.0\staticwebassets\msbuild.BookDataGenerator Web.Microsoft.AspNetCore.StaticWebAssets.props
+H:\muntakim\Personal\Itransation\Task 5\fake book store simulator\BookDataGenerator\BookDataGenerator Web\obj\Debug\net8.0\staticwebassets\msbuild.build.BookDataGenerator Web.props
+H:\muntakim\Personal\Itransation\Task 5\fake book store simulator\BookDataGenerator\BookDataGenerator Web\obj\Debug\net8.0\staticwebassets\msbuild.buildMultiTargeting.BookDataGenerator Web.props
+H:\muntakim\Personal\Itransation\Task 5\fake book store simulator\BookDataGenerator\BookDataGenerator Web\obj\Debug\net8.0\staticwebassets\msbuild.buildTransitive.BookDataGenerator Web.props
+H:\muntakim\Personal\Itransation\Task 5\fake book store simulator\BookDataGenerator\BookDataGenerator Web\obj\Debug\net8.0\staticwebassets.pack.json
