@@ -1,0 +1,14 @@
+{
+  "version": 2,
+  "dgSpecHash": "P7R1HEqFDL0=",
+  "success": true,
+  "projectFilePath": "H:\\muntakim\\Personal\\Itransation\\Task 5\\fake book store simulator\\BookDataGenerator\\BookDataGenerator Web\\BookDataGenerator Web.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\munta\\.nuget\\packages\\csvhelper\\30.0.1\\csvhelper.30.0.1.nupkg.sha512",
+    "C:\\Users\\munta\\.nuget\\packages\\microsoft.netcore.app.ref\\8.0.18\\microsoft.netcore.app.ref.8.0.18.nupkg.sha512",
+    "C:\\Users\\munta\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\8.0.18\\microsoft.windowsdesktop.app.ref.8.0.18.nupkg.sha512",
+    "C:\\Users\\munta\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\8.0.18\\microsoft.aspnetcore.app.ref.8.0.18.nupkg.sha512",
+    "C:\\Users\\munta\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\8.0.18\\microsoft.netcore.app.host.win-x64.8.0.18.nupkg.sha512"
+  ],
+  "logs": []
+}

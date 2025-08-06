@@ -1,0 +1,156 @@
+﻿@{
+    ViewData["Title"] = "Book Store Simulator";
+}
+<div class="container mt-4">
+    <h2>Book Store Data Generator</h2>
+    <form id="controls" class="row g-3 mb-4">
+        <div class="col-md-3">
+            <label for="language" class="form-label">Language/Region</label>
+            <select id="language" class="form-select">
+                <option value="en-US">English (USA)</option>
+                <option value="de-DE">German (Germany)</option>
+                <option value="ja-JP">Japanese (Japan)</option>
+            </select>
+        </div>
+        <div class="col-md-3">
+            <label for="seed" class="form-label">Seed</label>
+            <input type="text" id="seed" class="form-control" value="default" />
+            <button type="button" id="randomSeed" class="btn btn-secondary mt-2">Random Seed</button>
+        </div>
+        <div class="col-md-3">
+            <label for="likes" class="form-label">Avg Likes per Book</label>
+            <input type="range" id="likes" min="0" max="10" step="0.1" value="5" class="form-range" />
+            <span id="likesValue">5</span>
+        </div>
+        <div class="col-md-3">
+            <label for="reviews" class="form-label">Avg Reviews per Book</label>
+            <input type="number" id="reviews" min="0" max="10" step="0.1" value="5" class="form-control" />
+        </div>
+    </form>
+    <div id="booksTableContainer">
+        <table class="table table-bordered" id="booksTable">
+            <thead>
+                <tr>
+                    <th>Index</th>
+                    <th>ISBN</th>
+                    <th>Title</th>
+                    <th>Author</th>
+                    <th>Publisher</th>
+                    <th>Likes</th>
+                    <th>Reviews</th>
+                </tr>
+            </thead>
+            <tbody>
+                <!-- Book rows will be injected here -->
+            </tbody>
+            <script>
+                function renderBooks(books, append = false) {
+                    const tbody = document.querySelector("#booksTable tbody");
+                    if (!append) tbody.innerHTML = "";
+                    books.forEach(book => {
+                        const tr = document.createElement("tr");
+                        tr.setAttribute("data-bs-toggle", "collapse");
+                        tr.setAttribute("data-bs-target", `#details${book.index}`);
+                        tr.setAttribute("aria-expanded", "false");
+                        tr.setAttribute("style", "cursor:pointer;");
+                        tr.innerHTML = `
+                            <td>${book.index}</td>
+                            <td>${book.isbn}</td>
+                            <td>${book.title}</td>
+                            <td>${book.author}</td>
+                            <td>${book.publisher}</td>
+                            <td>${book.likes}</td>
+                            <td>${book.reviews}</td>
+                        `;
+                        tbody.appendChild(tr);
+
+                        // Details row
+                        const detailsTr = document.createElement("tr");
+                        detailsTr.classList.add("collapse");
+                        detailsTr.id = `details${book.index}`;
+                        detailsTr.innerHTML = `
+                            <td colspan="7">
+                                <div class="row">
+                                    <div class="col-md-3">
+                                        <img src="${book.coverImageUrl}" alt="Cover" class="img-fluid" />
+                                    </div>
+                                    <div class="col-md-9">
+                                        <h5>Reviews</h5>
+                                        ${book.reviewDetails.map(r => `<div><strong>${r.author}:</strong> ${r.text}</div>`).join("")}
+                                    </div>
+                                </div>
+                            </td>
+                        `;
+                        tbody.appendChild(detailsTr);
+                    });
+                }
+            </script>
+        </table>
+        <div id="loading" class="text-center" style="display:none;">Loading...</div>
+        <div id="error" class="text-danger" style="display:none;">Failed to load books.</div>
+    </div>
+</div>
+@section Scripts {
+    <script>
+        let page = 1;
+        let loading = false;
+        let finished = false;
+
+        function getParams() {
+            return {
+                language: document.getElementById('language').value,
+                seed: document.getElementById('seed').value,
+                avgLikes: parseFloat(document.getElementById('likes').value),
+                avgReviews: parseFloat(document.getElementById('reviews').value)
+            };
+        }
+
+        async function loadBooks(reset = false) {
+            if (loading || finished) return;
+            loading = true;
+            document.getElementById("loading").style.display = "block";
+            document.getElementById("error").style.display = "none";
+            if (reset) {
+                page = 1;
+                finished = false;
+            }
+            const params = getParams();
+            try {
+                const res = await fetch(`/api/book/batch?language=${params.language}&page=${page}&pageSize=${page === 1 ? 20 : 10}&avgLikes=${params.avgLikes}&avgReviews=${params.avgReviews}&seed=${params.seed}`);
+                if (!res.ok) throw new Error("Failed to load");
+                const books = await res.json();
+                renderBooks(books, !reset);
+                if (books.length === 0) finished = true;
+            } catch {
+                document.getElementById("error").style.display = "block";
+            }
+            document.getElementById("loading").style.display = "none";
+            loading = false;
+        }
+
+        document.getElementById("language").addEventListener("change", () => loadBooks(true));
+        document.getElementById("seed").addEventListener("input", () => loadBooks(true));
+        document.getElementById("likes").addEventListener("input", function () {
+            document.getElementById("likesValue").textContent = this.value;
+            loadBooks(true);
+        });
+        document.getElementById("reviews").addEventListener("input", () => loadBooks(true));
+        document.getElementById("randomSeed").addEventListener("click", () => {
+            document.getElementById("seed").value = Math.random().toString(36).substring(2, 10);
+            loadBooks(true);
+        });
+
+        // Infinite scroll
+        window.addEventListener("scroll", () => {
+            if ((window.innerHeight + window.scrollY) >= document.body.offsetHeight - 100) {
+                if (!loading && !finished) {
+                    page++;
+                    loadBooks();
+                }
+            }
+        });
+
+        // Initial load
+        loadBooks(true);
+    </script>
+}
